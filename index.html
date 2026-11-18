@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anurag Kumar – Network &amp; Security Lead</title>
+<meta name="description" content="Anurag Kumar, Network &amp; Security Lead with 9.5 years in enterprise networking, firewalls, data centers and managed services. Based in Dubai.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7f9;--surface:#fff;--ink:#17202b;--muted:#566272;--line:#d7dce3;--accent:#1c58b8;--accent-soft:#e4edfb;--ok:#b7791f}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10151c;--surface:#171e28;--ink:#e8edf3;--muted:#9aa6b5;--line:#2a3441;--accent:#6ea2f0;--accent-soft:#1c2a40;--ok:#e3b341}}
+:root[data-theme="dark"]{--bg:#10151c;--surface:#171e28;--ink:#e8edf3;--muted:#9aa6b5;--line:#2a3441;--accent:#6ea2f0;--accent-soft:#1c2a40;--ok:#e3b341}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.65 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+header.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:56px}
+header.top b{font-weight:600}
+nav{display:flex;gap:20px;font-size:15px;overflow-x:auto}
+nav a{color:var(--muted);text-decoration:none;white-space:nowrap}
+nav a:hover{color:var(--ink)}
+.hero{padding:72px 0 56px;display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+h1{font-size:clamp(40px,7vw,68px);line-height:1.02;margin:0 0 16px;letter-spacing:-.03em;font-weight:700}
+.role{font-size:20px;font-weight:500;margin:0 0 12px}
+.lede{color:var(--muted);max-width:52ch;margin:0 0 28px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:11px 20px;border-radius:8px;font-weight:600;text-decoration:none;border:1.5px solid var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--bg)}
+.btn:hover{filter:brightness(1.1)}
+.topo{width:100%;height:auto;color:var(--accent)}
+.topo .l{stroke:var(--line);stroke-width:2}
+.topo .n{fill:var(--surface);stroke:currentColor;stroke-width:2.5}
+.topo .c{fill:currentColor}
+.topo .pulse{fill:none;stroke:currentColor;stroke-width:2;opacity:0}
+@media (prefers-reduced-motion:no-preference){.topo .pulse{animation:p 3.2s ease-out infinite}@keyframes p{0%{r:14;opacity:.7}100%{r:34;opacity:0}}}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow:hidden}
+.stats div{padding:20px;border-right:1px solid var(--line)}
+.stats div:last-child{border-right:0}
+.stats strong{display:block;font-size:28px;line-height:1.1;font-weight:700}
+.stats span{color:var(--muted);font-size:14px}
+section{padding:64px 0 0}
+h2{font-size:28px;letter-spacing:-.02em;margin:0 0 24px;font-weight:700}
+.about p{max-width:68ch;margin:0 0 14px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0;border-top:1px solid var(--line)}
+.skills div{padding:18px 20px 18px 0;border-bottom:1px solid var(--line)}
+.skills h3{font-size:16px;margin:0 0 6px;font-weight:600}
+.skills p{margin:0;color:var(--muted);font-size:15px}
+.tl{position:relative;margin:0;padding:0 0 0 28px;list-style:none;border-left:2px solid var(--line)}
+.tl li{position:relative;padding-bottom:36px}
+.tl li::before{content:"";position:absolute;left:-37px;top:7px;width:14px;height:14px;border-radius:50%;background:var(--surface);border:3px solid var(--accent)}
+.tl li.now::before{background:var(--accent)}
+.when{font-size:14px;color:var(--muted);margin:0}
+.tl h3{margin:2px 0 0;font-size:20px;font-weight:600}
+.org{margin:0 0 10px;color:var(--muted)}
+.tl ul{margin:0;padding-left:20px}
+.tl li li{padding:0 0 6px}
+.tl li li::before{display:none}
+.tl ul li{position:static}
+.sub{font-weight:600;margin:14px 0 6px}
+.certs{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none}
+.certs li{background:var(--accent-soft);color:var(--ink);padding:7px 14px;border-radius:999px;font-size:15px;font-weight:500}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.two h3{margin:0 0 8px;font-size:18px}
+.two p{margin:0 0 8px}
+.contact{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:32px;margin-top:64px}
+.contact h2{margin-bottom:8px}
+footer{padding:40px 0 56px;color:var(--muted);font-size:14px}
+@media (max-width:760px){
+.hero{grid-template-columns:1fr;padding-top:48px}
+.topo{max-width:320px}
+.stats{grid-template-columns:1fr 1fr}
+.stats div:nth-child(2){border-right:0}
+.stats div:nth-child(-n+2){border-bottom:1px solid var(--line)}
+.two{grid-template-columns:1fr;gap:24px}
+nav{gap:14px}
+}
+@media print{header.top,.btns,.topo{display:none}body{background:#fff;color:#000}section{padding-top:28px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><b>Anurag Kumar</b>
+<nav aria-label="Sections"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a></nav></div></header>
+
+<main class="wrap">
+<div class="hero">
+<div>
+<h1>Anurag Kumar</h1>
+<p class="role">Network &amp; Security Lead</p>
+<p class="lede">I run data center, firewall, wireless and network operations for government and global enterprise clients. 9.5 years across the UAE, Australia, Canada, the UK, the US and India.</p>
+<div class="btns"><a class="btn primary" href="#contact">Get in touch</a><a class="btn" href="#experience">See experience</a></div>
+</div>
+<svg class="topo" viewBox="0 0 320 280" role="img" aria-label="Network topology diagram: a firewall at the center connected to a core switch, wireless, data center and branch nodes">
+<line class="l" x1="160" y1="140" x2="160" y2="40"/><line class="l" x1="160" y1="140" x2="50" y2="90"/><line class="l" x1="160" y1="140" x2="270" y2="90"/>
+<line class="l" x1="160" y1="140" x2="60" y2="215"/><line class="l" x1="160" y1="140" x2="260" y2="215"/><line class="l" x1="160" y1="140" x2="160" y2="245"/>
+<line class="l" x1="50" y1="90" x2="60" y2="215"/><line class="l" x1="270" y1="90" x2="260" y2="215"/>
+<circle class="pulse" cx="160" cy="140" r="14"/>
+<circle class="n" cx="160" cy="40" r="14"/><circle class="n" cx="50" cy="90" r="12"/><circle class="n" cx="270" cy="90" r="12"/>
+<circle class="n" cx="60" cy="215" r="12"/><circle class="n" cx="260" cy="215" r="12"/><circle class="n" cx="160" cy="245" r="12"/>
+<circle class="c" cx="160" cy="140" r="20"/>
+<circle class="c" cx="160" cy="40" r="5"/><circle class="c" cx="50" cy="90" r="4"/><circle class="c" cx="270" cy="90" r="4"/><circle class="c" cx="60" cy="215" r="4"/><circle class="c" cx="260" cy="215" r="4"/><circle class="c" cx="160" cy="245" r="4"/>
+</svg>
+</div>
+
+<div class="stats">
+<div><strong>9.5 yrs</strong><span>Enterprise networking &amp; security</span></div>
+<div><strong>6</strong><span>Countries of client delivery</span></div>
+<div><strong>62% → 93%</strong><span>SLA improvement leading a 25-engineer team</span></div>
+<div><strong>12+</strong><span>Certifications</span></div>
+</div>
+
+<section id="about" class="about">
+<h2>About</h2>
+<p>I am a Network Security Specialist (L3) and NOC and Managed Services lead. My work covers routing, switching, firewalls, wireless, monitoring, design and implementation, with a focus on high availability and clean operations.</p>
+<p>Today I lead network and security for a UAE Government environment: multi-site data centers, Fortinet and Sophos security, Cisco switching, Aruba wireless, SSL VPN with two-factor authentication, firmware upgrades, vendor coordination and quarterly security reporting.</p>
+<p>I am open to lead or individual contributor roles where I can deliver secure, scalable network solutions.</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div><h3>Security</h3><p>Palo Alto (Panorama, Prisma Access), FortiGate, FortiManager, FortiAnalyzer, Juniper SRX, Sophos, F5 LTM/GTM/ASM/AFM, IPSec, SSL VPN</p></div>
+<div><h3>Routing &amp; switching</h3><p>BGP, OSPF, EIGRP, MPLS, VXLAN, STP, vPC, LACP, HSRP, VRRP. Cisco Catalyst, Nexus, ISR and ASR; Juniper EX and MX</p></div>
+<div><h3>Wireless</h3><p>HPE Aruba (Central, Airwave, ClearPass), Cisco WLC, Meraki, FortiAP, Juniper Mist, Arista</p></div>
+<div><h3>Monitoring &amp; ITSM</h3><p>SolarWinds, LogicMonitor, Nagios XI, PRTG, Infoblox DDI, ServiceNow, Zoho Desk, Jira, BMC Remedy</p></div>
+<div><h3>Cloud &amp; systems</h3><p>AWS, Microsoft Azure, Aviatrix, VMware vCenter, SCCM, WSUS, Windows Server, Linux</p></div>
+<div><h3>Delivery</h3><p>Incident, change and problem management, RCA, capacity planning, ITAM, escalation management, MIS reporting, team leadership</p></div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<ol class="tl">
+<li class="now"><p class="when">April 2026 – Present · Dubai, on-site</p><h3>Network &amp; Security Lead</h3><p class="org">Emircom LLC · Ministry of Sports, UAE Government</p>
+<ul><li>Manage the Ministry's data centers in Dubai, Abu Dhabi and Fujairah, with all network devices in high availability.</li>
+<li>Administer FortiGate 601E and 100F firewalls through FortiManager and FortiAnalyzer, plus Sophos data center firewalls. Completed a FortiGate firmware upgrade.</li>
+<li>Write security rules and policies, block malicious IOCs and apply URL filtering. Run FortiGate SSL VPN with FortiToken 2FA.</li>
+<li>Install and configure Aruba WLC and access points, and create employee and guest access.</li>
+<li>Manage Cisco core (C9407R), DMZ and IDF switches. Build vPC and LACP ports for Dell PowerScale and EMC servers.</li>
+<li>Coordinate with UAE Federal Networks, Cisco, Fortinet, Sophos and Etisalat on ISP link upgrades. Produce quarterly security reports.</li></ul></li>
+
+<li><p class="when">Sept 2025 – Feb 2026 · Dubai, on-site</p><h3>Network &amp; Security Lead</h3><p class="org">3i Infotech · Sharjah Municipality, UAE Government</p>
+<ul><li>Upgraded the data center firewall from Palo Alto 3260 to PA-3440 in HA. Managed FortiGate 601E and Juniper SRX 3400.</li>
+<li>Ran F5 BIG-IP i5000 with SSL offloading, iRules, ASM (WAF against OWASP Top 10) and AFM (DDoS protection).</li>
+<li>Migrated wireless from Cisco WLC to Aruba with ClearPass, including new SSIDs and guest and employee access.</li>
+<li>Managed Cisco Catalyst and Nexus switching, upgraded SolarWinds and onboarded new devices, and ran Nomadix DPI for monitoring and reporting.</li></ul></li>
+
+<li><p class="when">Feb 2025 – Aug 2025 · Contract</p><h3>Network Engineer L3</h3><p class="org">Stefanini Group · Adtalem Global Education (US)</p>
+<ul><li>Handled P1 and P2 incidents across routing, switching, wireless, Palo Alto and Juniper SRX.</li>
+<li>Supported Arista, Meraki and Aruba environments. Configured Cisco Catalyst, Nexus, ASR and ISE with RADIUS captive portals.</li>
+<li>Designed and onboarded Meraki, Aruba, FortiAP and Juniper Mist access points. Attended CAB calls.</li></ul></li>
+
+<li><p class="when">July 2024 – Dec 2024 · Contract</p><h3>Managed Services Specialist / Network Lead</h3><p class="org">UnifyCX (formerly Glowtouch) · 6Degrees (UK)</p>
+<ul><li>Managed P1 and P2 tickets across network, firewalls, servers and Azure VMs.</li>
+<li>Configured and troubleshot BGP, MPLS, IPSec and SD-WAN. Upgraded routers, switches, firewalls and wireless.</li>
+<li>Set up SolarWinds monitoring and alerting, ran change management and CAB, and performed RCA for problem management.</li></ul></li>
+
+<li><p class="when">June 2018 – July 2024</p><h3>Accenture</h3><p class="org">Three roles, three global clients</p>
+<p class="sub">NOC / Network L3 · TransCanada Energy (Canada), Feb–Jul 2024</p>
+<ul><li>Monitored corporate and SCADA networks, handled P1 to P3 incidents and worked with Cisco, BT and Verizon TAC.</li>
+<li>Led SOP and SLA improvement, KPI monitoring, RFO and RCA documentation.</li></ul>
+<p class="sub">Managed Services NOC DC Sr Analyst · Rio Tinto (Australia), Nov 2021–Feb 2024</p>
+<ul><li>Oversaw NOC and data center operations across Australia, Canada and the US, including critical incidents and changes.</li>
+<li>Implemented Infoblox DDI (DNS, DHCP, IP audits), ran IT asset lifecycle management and built capacity forecasting models.</li>
+<li>Produced DC layouts, rack diagrams and network designs. Led the India team on tasks, KPIs and the known error database.</li></ul>
+<p class="sub">NOC Engineer L2 · Bharti Airtel UNOC (India), Jun 2018–Nov 2021</p>
+<ul><li>Resolved P1 to P3 incidents for ISP enterprise customers on leased lines, P2P, P2MP and MPLS over RF, wireline and VSAT.</li>
+<li>Troubleshot BGP flapping, packet drops, latency and node failures; led link migrations and managed escalations.</li></ul></li>
+
+<li><p class="when">Sept 2016 – Nov 2017</p><h3>Team Lead, Mobility Networks</h3><p class="org">Vayam Info Solutions (Wipro Infotech) · Bharti Airtel</p>
+<ul><li>Led 25 engineers in 24x7 operations for the Rajasthan circle, covering 2G/3G incidents and changes.</li>
+<li>Planned new 4G LTE sites and RF optimization. Raised SLA performance from 62% to 93%.</li></ul></li>
+</ol>
+</section>
+
+<section id="credentials">
+<h2>Credentials</h2>
+<ul class="certs">
+<li>Cisco CCNA</li><li>Cisco CCNP</li><li>CompTIA Network+</li><li>Palo Alto PCNSE</li><li>Fortinet NSE 1–3</li><li>AWS Solutions Architect Associate</li><li>Aviatrix Certified Engineer</li><li>Azure AZ-900</li><li>Azure AI-900</li><li>Power Platform PL-900</li><li>ITIL Foundation</li><li>HPE Aruba (in progress)</li>
+</ul>
+<div class="two" style="margin-top:40px">
+<div><h3>Education</h3><p>B.Tech, Computer Science Engineering<br>BPUT University, Odisha (2012–2016)</p><p>Industrial training, IT Department, Tata Power, Jamshedpur (2014)</p></div>
+<div><h3>Languages</h3><p>Hindi (native), English (professional), German and French (beginner, learning)</p><h3 style="margin-top:20px">Beyond work</h3><p>Gold medalist at DAV MHART national level (100m, 200m, 4x100m relay) and national-level volleyball (CBSE).</p></div>
+</div>
+</section>
+
+<section id="contact" style="padding-top:0">
+<div class="contact">
+<h2>Contact</h2>
+<p>Based in Dubai. For senior network, security and data center roles, email me or connect on LinkedIn.</p>
+<div class="btns"><a class="btn primary" href="mailto:anurag.kumar2407@gmail.com">anurag.kumar2407@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/anurag-aarya-only-one/" rel="noopener">LinkedIn profile</a></div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 Anurag Kumar</div></footer>
+</body>
+</html>
